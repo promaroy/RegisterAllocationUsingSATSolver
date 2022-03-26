@@ -2,6 +2,8 @@
 
 # give allotted number of registers , number of variables
 
+#usage: python registerData.py > graphSample.txt
+
 liveness = [[1,4],[2,4],[3,4]]
 edges = []
 for x in range(len(liveness)):

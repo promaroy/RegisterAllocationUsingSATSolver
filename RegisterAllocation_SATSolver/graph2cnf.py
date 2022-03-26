@@ -4,7 +4,7 @@ import sys,re
 # File: To Generate the CNF from the given Graph defination
 # Author: Proma Roy
 # Date: March 2022
-#usage: ./zchaff graphSample.txt>graphSample.cnf
+#usage: ./graph2cnf.py graphSample.txt> ./zchaff/graphSample.cnf
 
 
 for line in open(sys.argv[1]):
